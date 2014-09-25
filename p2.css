@@ -1,0 +1,18 @@
+form {margin:2em .5em;
+		width:20em;
+		float:left;}
+.password_block {float:left;
+			width:25em;
+			text-align: center;
+			margin:1em 0em 0em 0em;}
+#password {min-width: 50px;
+		margin:0 auto;
+		display:inline-block;}
+#password p{color:#5CADFF;
+			font-size: 2em;
+			line-height: 1em;
+			padding:.5em;
+		background-color: #E6E6E6;
+		clear:left;}
+#description {clear:left;}
+img {height:40%; width:40%;}

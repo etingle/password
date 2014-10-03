@@ -31,15 +31,15 @@
 			<input type="checkbox" name="symbol_add" id="symbol_add">
 		</label>
 		<legend>Capitalization:</legend>
-		<label for="upper_case" class="pure-radio">
+		<label for="upper_case" class="pure-radio" id="upper_case">
 			All Caps
 			<input type="radio" name="case" id="upper_case" value="upper_case">
 		</label>
-		<label for="camel_case" class="pure-radio">
+		<label for="camel_case" class="pure-radio" id="camel_case">
 			Camel Case
 			<input type="radio" name="case" id="camel_case" value="camel_case">
 		</label>
-		<label for="lower_case" class="pure-radio">
+		<label for="lower_case" class="pure-radio" id="lower_case">
 			Lower Case
 			<input type="radio" name="case" id="lower_case" value="lower_case" checked>
 		</label>

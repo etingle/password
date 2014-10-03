@@ -48,9 +48,9 @@
 </form>
 
 <div class="password_block">
-<p id="link">Password generated from the<br/><a href="<?=$link?>"\><?=$title?></a><br/>Wikipedia page</p>
+<p id="link">Password generated from the<br /><a href="<?=$link?>"><?=$title?></a><br />Wikipedia page</p>
 
-<img src="http:<?=$image?>">
+<img src="http:<?=$image?>" alt="random wikipedia image">
 
 <div id="password">
 <p><?=$password?></p>

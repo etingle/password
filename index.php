@@ -3,7 +3,7 @@
 <head>
 	
 	<meta charset='utf-8'>
-	<title>P2 - XKCD Password Generator</title>
+	<title>P2 - XKCD/Wiki Password Generator</title>
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 	<link rel="stylesheet" type="text/css" href="http://purecss.io/css/layouts/side-menu.css">
 	<link rel="stylesheet" type="text/css" href="p2.css" >
@@ -15,7 +15,7 @@
 
 	<div id="main">
 	<div class="header">
-<h1> P2 - XKCD Password Generator</h1>
+<h1> P2 - XKCD/Wiki Password Generator</h1>
 </div>
 <div class="content">
 <!--Creating Form-->
@@ -49,12 +49,12 @@
 </form>
 
 <div class="password_block">
-<p id="link"><?php echo "Password generated from the<br/><a href=\"".$link."\">".$title."</a><br/>Wikipedia page" ?></p>
+<p id="link">Password generated from the<br/><a href="<?=$link?>"\><?=$title?></a><br/>Wikipedia page</p>
 
-<img src=<?php echo "http:".$image.">"?>
+<img src="http:<?=$image?>">
 
 <div id="password">
-<p><?php echo $password ?></p>
+<p><?=$password?></p>
 </div>
 </div>
 <p id="description"><a href="http://xkcd.com/936/">XKCD passwords</a> are random words pieced together to create a long (and therefore hard to guess) but memorable password. My password generator creates a password with random words from a random Wikipedia page. Learn something new AND stay secure!</p>

@@ -45,7 +45,6 @@
 		</label>
 		<br/>
 		<input class="pure-button pure-button-active" type="submit" value="Generate">
-	</p>
 </form>
 
 <div class="password_block">

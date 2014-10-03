@@ -7,7 +7,8 @@ form {margin:2em .5em;
 			margin:1em 0em 0em 0em;}
 #password {min-width: 50px;
 		margin:0 auto;
-		display:inline-block;}
+		display:inline-block;
+		clear:both;}
 #password p{color:#5CADFF;
 			font-size: 2em;
 			line-height: 1em;
@@ -15,4 +16,4 @@ form {margin:2em .5em;
 		background-color: #E6E6E6;
 		clear:left;}
 #description {clear:left;}
-img {height:40%; width:40%;}
+img {height:40%; width:40%; clear:both;}
